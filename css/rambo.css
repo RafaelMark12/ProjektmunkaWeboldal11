@@ -1,0 +1,81 @@
+
+/*Weboldal teste*/
+body{
+    background-image: url(../navbarkep.jpg);
+    color: white;
+    padding-left:50px;
+    padding-right: 50px;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(3, 3, 69, 25%);
+}
+/*Ez a tortenet.html oldal css-e*/
+#emlek{
+    width: 33%;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+#kezdet{
+    float: right;
+    width: 15%;
+    margin-right: 30px;
+    border-radius: 30px;   
+}
+/*Ez a szereploi.html oldal css-e*/
+ul{
+    list-style-image: url(../szereploi/rambokes.png);
+}
+/*Ez a navbar, navigációs sávnak a css-e*/
+#nsz{
+    color: yellow;
+    font-size: 25px;
+    background-color: rgb(3, 3, 69, 25%);
+    text-indent: 50px;
+}
+#nsz:hover{
+    color: white;
+}
+/* Ez a fooldal.html oldal css-e*/
+#foldalkepe{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: right;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#webkep{
+    filter: brightness(30%);
+}
+
+/*Ez a sorozatok.html oldal css-e*/
+#sorozat{
+    float: left;
+    width: 20%;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+#sszoveg{
+    text-align: justify;
+}
