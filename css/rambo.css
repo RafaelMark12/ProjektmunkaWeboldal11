@@ -71,8 +71,7 @@ ul{
 
 /*Ez a sorozatok.html oldal css-e*/
 #sorozat{
-    float: left;
-    width: 20%;
+    width: 10%;
     border: 1px lightgrey solid;
     border-radius: 5px;
 }
