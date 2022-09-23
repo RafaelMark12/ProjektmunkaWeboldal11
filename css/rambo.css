@@ -32,7 +32,7 @@ footer{
     border-radius: 30px;   
 }
 /*Ez a szereploi.html oldal css-e*/
-ul{
+#rlista{
     list-style-image: url(../szereploi/rambokes.png);
 }
 #szkep{
