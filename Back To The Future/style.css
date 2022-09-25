@@ -1,0 +1,66 @@
+body{
+    background: rgba(0,0,0,0.7)url(./kepek/bg.jpg)fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 136, 0);
+}
+
+p{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(orange, orangered);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kep{
+    width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform .2s; /* Animation */
+}
+
+.kep:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.sz{
+    margin-bottom: 80px;
+    margin-left: 30px;
+    transition: transform .2s; /* Animation */
+}
+
+.sz:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.szt{
+    padding-left: 40px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.border{
+    border-radius: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 65px;
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(orange, orangered);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
