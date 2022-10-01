@@ -41,16 +41,14 @@ footer{
     border: 3px rgba(153, 205, 50, 0.274) solid;
 }
 /*Ez a navbar, navigációs sávnak a css-e*/
-#nsz{
-    color: yellow;
-    font-size: 25px;
-    background-color: rgb(3, 3, 69, 25%);
-    text-indent: 50px;
+
+#navigalas{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align: center;
 }
-#nsz:hover{
-    color: rgba(0, 217, 255, 0.867);
-}
-/* Ez a fooldal.html oldal css-e*/
+/* Ez a forambo.html oldal css-e*/
 #foldalkepe{
     border-radius: 20px;
     margin-left: auto;
