@@ -1,7 +1,7 @@
 
 /*Weboldal teste*/
 body{
-    background-image: url(../navbarkep.jpg);
+    background-image: url(../oldalhatter.jpg);
     color: white;
     padding-left: 5%;
     padding-right: 5%;
@@ -53,6 +53,18 @@ footer{
     font-size: 20px;
     text-align: center;
 }
+#marknavpont{
+    color: blue;
+    font-style: italic;
+    
+}
+#marknavpont:hover{
+    font-style: normal;
+    color: rgb(0, 136, 255);
+    border: 1px black solid;
+    border-radius: 10px;
+    background-image: url(../navigalaskep.png);
+}
 /* Ez a forambo.html oldal css-e*/
 
 .container {
@@ -71,9 +83,9 @@ footer{
     filter: brightness(30%);
 }
 #forambokep{
-    padding-left: 20%;
-    padding-right: 20%;
-    border-radius: 10%;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*Ez a sorozatok.html oldal css-e*/
