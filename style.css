@@ -1,0 +1,200 @@
+/*Weboldalak főbb részei(mini)*/
+body{
+    background-color: rgba(1, 0, 0, 0.974);
+    color: white;
+}
+h1{
+    text-align: center;
+    background-color: #A52A2A;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 20px;
+}
+footer{
+    font-size: 40px;
+    text-align: center;
+    background-color:#A52A2A;
+    font-style: italic;
+}
+
+
+/* Lilinek a css-e */
+
+.menu {
+    color: #A52A2A;
+    text-decoration: none;
+    font-size: 200%;
+    border-style: solid;
+    border-right:#A52A2A;
+    border-left:#A52A2A;
+    border-top:#A52A2A;
+    padding: 0.5vh;
+}
+
+a:hover, a:active, a:visited, a{
+    text-decoration: none;
+    color: #A52A2A;
+}
+/*
+body {
+    background-color: rgb(0, 8, 41);
+    color: rgb(245, 245, 245);
+}
+*/
+#plakat{
+    width: 84%;
+    float: right;
+    margin-right: 7.5%;
+}
+
+.container {
+    margin-bottom: 3%;
+}
+
+#karakterek {
+    text-align:justify;
+    font-size: 18px;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #A52A2A;
+    padding: 4%;
+    background-color: #16151e;
+}
+
+
+/* Zoltánnak a css-e */
+
+body{
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 136, 0);
+}
+
+
+.kep{
+    width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform .2s; /* Animation */
+}
+
+.kep:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.sz{
+    margin-bottom: 80px;
+    margin-left: 30px;
+    transition: transform .2s; /* Animation */
+}
+
+.sz:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.szt{
+    padding-left: 40px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.border{
+    border-radius: 50px;
+}
+
+
+
+/* Márknak a css-e */
+/*Márk tortenet.html oldal css-e*/
+#emlek{
+    width: 100%;
+    height: 100%;
+    border: 1px rgb(4, 3, 59) solid;
+}
+#kezdet{
+    float: right;
+    width: 15%;
+    margin-right: 30px;
+    border-radius: 30px;   
+}
+/*Márk szereploi.html oldal css-e*/
+#rlista{
+    list-style-image: url(../szereploi/rambokes.png);
+}
+#szkep{
+    width: 30%;
+    border-radius: 20px;
+    border: 3px rgba(153, 205, 50, 0.274) solid;
+}
+/*Márk navbar, navigációs sávnak a css-e*/
+
+#navigalas{
+    padding-left: 20%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+#marknavpont{
+    color: blue;
+    font-style: italic;
+    
+}
+#marknavpont:hover{
+    font-style: normal;
+    color: rgb(0, 136, 255);
+    border: 1px black solid;
+    border-radius: 10px;
+    background-image: url(../navigalaskep.png);
+}
+/* Márk forambo.html oldal css-e*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#webkep{
+    filter: brightness(30%);
+}
+#forambokep{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*Márk sorozatok.html oldal css-e*/
+#sorozat{
+    width: 200px;
+    object-fit: cover;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+}
+strong{
+    font-style: italic;
+}
+#marksorozatok{
+    text-align: center;
+    font-style: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
+}
