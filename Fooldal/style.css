@@ -1,4 +1,4 @@
-/*Weboldalak főbb részei(mini)*/
+
 body{
     background-color: rgba(1, 0, 0, 0.974);
     color: white;
@@ -24,6 +24,15 @@ footer{
     background-color:#A52A2A;
     font-style: italic;
 }
+#filmkepek{
+    width: 100%;
+    height: 100%;
+    border: 1px rgb(4, 3, 59) solid;
+}
+#filmkepek:hover{
+    opacity: 0.5;
+}
+
 
 
 /* Lilinek a css-e */
