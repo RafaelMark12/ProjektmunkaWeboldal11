@@ -25,15 +25,14 @@ footer{
     background-color:#c223233b;
     font-style: italic;
 }
-#filmkepek{
-    width: 100%;
-    height: 100%;
-    border: 1px rgb(4, 3, 59) solid;
+
+img{
+    height: auto;
+    max-width: 200px;
 }
-#filmkepek:hover{
+img:hover{
     opacity: 0.5;
 }
-
 
 
 /* Lilinek a css-e */
