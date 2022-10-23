@@ -28,11 +28,12 @@ footer{
 
 img{
     height: auto;
-    max-width: 200px;
+    max-width: 300px;
 }
 img:hover{
     opacity: 0.5;
 }
+
 
 
 /* Lilinek a css-e */
